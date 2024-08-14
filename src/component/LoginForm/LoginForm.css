@@ -57,6 +57,9 @@ button {
     font-weight: 700;
     color: #4c4c4c
 }
+button:hover{
+    transform: scale(1.05);
+}
 
 .register {
     text-align: center;
@@ -72,4 +75,17 @@ button {
 
 .register p a:hover {
     text-decoration: underline;
+}
+@media screen and (max-width: 500px) {
+    .container {
+        width: 300px;
+        background-color: transparent;
+        color: rgb(237, 237, 227);
+        border: 2PX solid rgba(255, 255, 255, .2);
+        backdrop-filter: blur(30px);
+        box-shadow: 0 0 10px rgba(255, 255, 255, .2);
+        border-radius: 20px;
+        padding: 20px 40px;
+    }
+    
 }
