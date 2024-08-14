@@ -20,7 +20,7 @@ export default function LoginForm() {
       </div>
       <button type='submit'>Login</button>
       <div className="register">
-        <p>Dont have account? <span>Register<span/> </p>
+        <p>Dont have account? <span>Register</span> </p>
       </div>
 
       </form>
