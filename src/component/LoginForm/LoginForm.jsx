@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './LoginForm.css';
 import { FaUser  } from "react-icons/fa";
 import { FaMobile } from "react-icons/fa6";
@@ -25,5 +25,5 @@ export default function LoginForm() {
 
       </form>
     </div>
-  )
+  );
 }
