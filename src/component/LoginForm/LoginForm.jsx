@@ -2,6 +2,7 @@ import React from 'react';
 import './LoginForm.css';
 import { FaUser  } from "react-icons/fa";
 import { FaMobile } from "react-icons/fa6";
+// import SignupForm from './component/SignupForm/SignupForm';
 
 
 export default function LoginForm() {
@@ -20,6 +21,8 @@ export default function LoginForm() {
       </div>
       <button type='submit'>Login</button>
       <div className="register">
+      {/* <p>Dont have account? <a href="">Register</a>   </p> */}
+
         <p>Dont have account? <span>Register</span> </p>
       </div>
 

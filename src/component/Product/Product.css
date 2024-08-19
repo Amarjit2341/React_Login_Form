@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.head {
+    color: rgb(241, 75, 75);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.mid {
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.main_section {
+
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.ctr1 {
+    color: black;
+    border: 2px solid rgba(115, 114, 114, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    height: 230px;
+    width: 200px;
+    margin: 50px 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#one {
+
+    background-image: url(../Assets/hair\ piont\ brush.jpeg);
+}
+
+#two {
+    background-image: url(../Assets/foam\ brush.jpg);
+}
+
+#three {
+    background-image: url(../Assets/hairbrush.jpeg);
+}
+
+#four {
+    background-image: url(../Assets/trimmer.webp);
+}
+
+.text {
+
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+
+}
+
+.text_price {
+    color: darkred;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
