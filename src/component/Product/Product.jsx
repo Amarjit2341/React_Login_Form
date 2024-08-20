@@ -23,7 +23,7 @@ export default function Product() {
                 </div>
 
                 <div className="ctr1" id='three'>
-                    <p className='text'>Mains Hair Combo </p>
+                    <p className='text'>Mens Hair Combo </p>
                     <p className='text_price'>$ 150.00</p>
 
                 </div>
@@ -32,6 +32,62 @@ export default function Product() {
                     <p className='text_price'>$ 800.00</p>
                 </div>
 
+            </div>
+
+            <div className="ctr2">
+
+
+                <div className="ctr1" id='one1'>
+                    <p className='text'> Mens Blade </p>
+                    <p className='text_price'>$ 300.00</p>
+                </div>
+                <div className="ctr1" id='two2'>
+                    <p className='text'>Massage Chair </p>
+                    <p className='text_price'>$ 4000.00</p>
+                </div>
+
+                <div className="ctr1" id='three3'>
+                    <p className='text'>Multipurpose Trolly </p>
+                    <p className='text_price'>$ 1550.00</p>
+
+                </div>
+                <div className="ctr1" id='four4'>
+                    <p className='text'> Multipurpose Trolly </p>
+                    <p className='text_price'>$2800.00</p>
+                </div>
+
+            </div>
+
+            <div className="ctr2">
+
+
+                <div className="ctr1" id='one11'>
+                    <p className='text'> Nail Remiver Combo </p>
+                    <p className='text_price'>$ 430.00</p>
+                </div>
+                <div className="ctr1" id='two22'>
+                    <p className='text'>Tray Stand </p>
+                    <p className='text_price'>$ 800.00</p>
+                </div>
+
+                <div className="ctr1" id='three33'>
+                    <p className='text'>Multipurpose Trolly </p>
+                    <p className='text_price'>$ 1150.00</p>
+
+                </div>
+                <div className="ctr1" id='four44'>
+                    <p className='text'> Mens Combo Pack </p>
+                    <p className='text_price'>$ 700.00</p>
+                </div>
+
+            </div>
+
+            <div className="head">
+                <p>OUR PROFESSIONAL</p>
+            </div>
+
+            <div className="mid">
+                <p>Meet The Team</p>
             </div>
 
         </div>
