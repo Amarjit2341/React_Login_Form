@@ -1,5 +1,6 @@
 import React from 'react';
 import './Product.css';
+// import Assets from './Assets';
 
 export default function Product() {
     return (
@@ -14,22 +15,38 @@ export default function Product() {
 
             <div className="main_section">
                 <div className="ctr1" id='one'>
-                    <p className='text'> Pin On Hair Brush </p>
-                    <p className='text_price'>$ 130.00</p>
+                    <img src="./images/hair piont brush.jpeg" alt="" />
+
+                    <div className="one">
+                        <p className='text'> Pin On Hair Brush </p>
+                        <p className='text_price'>$ 130.00</p>
+                    </div>
+
                 </div>
                 <div className="ctr1" id='two'>
-                    <p className='text'>Beard Combo Brush </p>
-                    <p className='text_price'>$ 200.00</p>
+                    <img src="./images/foam brush.jpg" alt="" />
+
+                    <div className="one">
+
+                        <p className='text'>Beard Combo Brush </p>
+                        <p className='text_price'>$ 200.00</p>
+
+                    </div>
                 </div>
 
                 <div className="ctr1" id='three'>
-                    <p className='text'>Mens Hair Combo </p>
-                    <p className='text_price'>$ 150.00</p>
-
+                    <img src="./images/hairbrush.jpeg" alt="" />
+                    <div className="one">
+                        <p className='text'>Mens Hair Combo </p>
+                        <p className='text_price'>$ 150.00</p>
+                    </div>
                 </div>
                 <div className="ctr1" id='four'>
+                    <img src="./images/trimmer.webp" alt="" />
+                    <div className="one">
                     <p className='text'> Mens Battery Razors </p>
                     <p className='text_price'>$ 800.00</p>
+                    </div>
                 </div>
 
             </div>
@@ -38,46 +55,77 @@ export default function Product() {
 
 
                 <div className="ctr1" id='one1'>
+                    <img src="./images/combo.webp" alt="" />
+                    <div className="one">
                     <p className='text'> Mens Blade </p>
                     <p className='text_price'>$ 300.00</p>
+                    </div>
                 </div>
                 <div className="ctr1" id='two2'>
+                    <img src="./images/trolly.jpeg" alt="" />
+                    <div className="one">
+
                     <p className='text'>Massage Chair </p>
                     <p className='text_price'>$ 4000.00</p>
+                    </div>
                 </div>
 
                 <div className="ctr1" id='three3'>
+                    <img src="./images/stand.jpeg" alt="" />
+                    <div className="one">
+
                     <p className='text'>Multipurpose Trolly </p>
                     <p className='text_price'>$ 1550.00</p>
-
+                    </div>
                 </div>
                 <div className="ctr1" id='four4'>
+                    <img src="./images/nailremover.jpg" alt="" />
+                    <div className="one">
+
                     <p className='text'> Multipurpose Trolly </p>
                     <p className='text_price'>$2800.00</p>
+                    </div>
                 </div>
 
             </div>
 
-            <div className="ctr2">
+            <div className="ctr3">
 
 
                 <div className="ctr1" id='one11'>
+
+                    <img src="./images/blade.jpeg" alt="" />
+                    <div className="one">
+
                     <p className='text'> Nail Remiver Combo </p>
                     <p className='text_price'>$ 430.00</p>
+                    </div>
                 </div>
                 <div className="ctr1" id='two22'>
+                    <img src="./images/chair.jpg" alt="" />
+                    <div className="one">
+
                     <p className='text'>Tray Stand </p>
                     <p className='text_price'>$ 800.00</p>
+                    </div>
                 </div>
 
                 <div className="ctr1" id='three33'>
+                    <img src="./images/chair1.webp" alt="" />
+                    <div className="one">
+
                     <p className='text'>Multipurpose Trolly </p>
                     <p className='text_price'>$ 1150.00</p>
+                    </div>
 
                 </div>
                 <div className="ctr1" id='four44'>
+                    <img src="./images/instrument table.jpg" alt="" />
+                    <div className="one">
+
                     <p className='text'> Mens Combo Pack </p>
                     <p className='text_price'>$ 700.00</p>
+                    </div>
                 </div>
 
             </div>
@@ -86,7 +134,7 @@ export default function Product() {
                 <p>OUR PROFESSIONAL</p>
             </div>
 
-            <div className="mid">
+            <div className="midend">
                 <p>Meet The Team</p>
             </div>
 
